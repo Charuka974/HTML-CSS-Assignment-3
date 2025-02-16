@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .background{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .left-top{
+            background-color: red;
+            border: 1px solid red;
+            height: 50vh;
+            width: 50vw;
+            position: absolute;
+           
+        }
+        .right-top{
+            background-color: green;
+            border: 1px solid green;
+            height: 50vh;
+            width: 50vw;
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+        }
+        .right-bottom{
+            background-color: rgb(184, 12, 172);
+            border: 1px solid pink;
+            height: 50vh;
+            width: 50vw;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+        }
+        .left-bottom{
+            background-color: yellow;
+            border: 1px solid yellow;
+            height: 50vh;
+            width: 50vw;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+           
+        }
+
+        .white-circle{
+            background-color: white;
+            border: 1px solid white;
+            height: 15vw;
+            width: 15vw;
+            border-radius: 50%;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+
+        }
+
+        .small-red-box{
+            background-color: red;
+            border: 1px solid red;
+            height: 50%;
+            width: 50%;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+        .center-white-box{
+            background-color: white;
+            height: 15vw;
+            width: 15vw;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+        .center-red-circle{
+            background-color: red;
+            border: 1px solid red;
+            height: 50%;
+            width: 50%;
+            border-radius: 50%;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+        .corner-white-circle{
+            background-color: white;
+            border: 1px solid white;
+            height: 15vw;
+            width: 15vw;
+            border-radius: 50%;
+            position: absolute;
+            
+        }
+
+        .top-left-corner-circle{
+            bottom: 90%;
+            right: 90%;
+           
+        }
+
+        .top-right-corner-circle{
+            bottom: 90%;
+            left: 90%;
+            
+        }
+
+        .bottom-right-corner-circle{
+            top: 90%;
+            left: 90%;
+           
+        }
+
+        .bottom-left-corner-circle{
+            top: 90%;
+            right: 90%;
+            
+        }
+
+        .top-middle-circle{
+            top: 0%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+        .bottom-middle-circle{
+            top: 100%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="background-box left-top">
+        <div class="white-circle">
+            <div class="small-red-box"></div>
+        </div>
+    </div>
+
+    <div class="background-box right-top">
+        <div class="white-circle">
+            <div class="small-red-box"></div>
+        </div>
+    </div>
+
+    <div class="background-box left-bottom">
+        <div class="white-circle">
+            <div class="small-red-box"></div>
+        </div>
+    </div>
+
+    <div class="background-box right-bottom">
+        <div class="white-circle">
+            <div class="small-red-box"></div>
+        </div>
+    </div>
+
+    <div class="center-white-box">
+        <div class="center-red-circle"></div>
+    </div>
+
+    <div class="corner-white-circle top-left-corner-circle"></div>
+    <div class="corner-white-circle top-right-corner-circle"></div>
+    <div class="corner-white-circle bottom-right-corner-circle"></div>
+    <div class="corner-white-circle bottom-left-corner-circle"></div>
+
+    <div class="corner-white-circle top-middle-circle"></div>
+    <div class="corner-white-circle bottom-middle-circle"></div>
+    
+    
+
+</body>
+</html>
