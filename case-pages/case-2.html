@@ -4,8 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-color: rgb(63, 0, 107);
+            display: flex;
+        }
+
+        header{
+            background-color: white;
+            border: 1px solid black;
+            position: fixed;
+            height: 70px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .nav-bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: auto;
+        }
+        .nav-bar > ul{
+            list-style: none;
+            display: flex;
+            margin-right: 20px;
+            
+        }
+        .nav-bar > ul > li{
+            padding: 10px;
+            
+        }
+        .nav-bar > ul > li > a {
+            text-decoration: none;
+            color: black;
+            font-size: 1rem;     
+               
+        }
+        .logo{
+            object-fit: contain;
+            height: 30px;
+            margin-left: 10px;
+            margin-right: auto;
+        }
+        
+
+        footer{
+            background-color: rgb(106, 106, 106);
+            text-align: center;
+            padding: 10px 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+            height: 24px;
+        }
+        footer > span{
+            color: white;
+            font-size: 1rem;
+            
+        }
+
+
+        .side-menu{
+            margin: 0;
+            padding-top: 12vh;
+            padding-bottom: 4vh;
+            /* background-color: rgb(4, 13, 73); */
+            color: white;
+            width: 20vw;
+            /* height: 100vh; */
+        }
+        .side-menu > ul{
+            justify-content: center;
+            padding-left: 2vw;
+            position: fixed;
+        }
+        .side-menu > ul > li{
+            list-style: none;
+            margin: 5vh 0px;
+        }
+        .side-menu > ul > li > a{
+            color: white;
+            text-decoration: none;
+        }
+
+
+        
+        .section-1{
+            margin: 0;
+            margin-top: 80px;
+            background-color: white;
+            height: auto;
+            width: 80vw;
+            /* border: 1px solid black; */
+        }
+        .image-box{
+            height: 15vw;
+            width: 25vw;
+            background-color: beige;
+            border: 1px solid black;
+
+        }
+        .image-field{
+            display: flex;
+            justify-content: center;
+            /* gap: 5vw; */
+            padding-top: 10px;
+        }
+        .content-text{
+            margin-left: 10px;
+        }
+
+    </style>
+
 </head>
 <body>
     
+    <header class="nav-bar-header">
+        <img class="logo" src="/assets/images/ijse-logo.png" alt="logo">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="side-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </div>
+
+
+    <section class="section-1">
+        <div class="image-field">
+            <img class="image-box" src="/assets/images/2492fcf0f421a626f100ed77124174f7.gif" alt="">
+            <img class="image-box" src="/assets/images/2492fcf0f421a626f100ed77124174f7.gif" alt="">
+            <img class="image-box" src="/assets/images/2492fcf0f421a626f100ed77124174f7.gif" alt="">
+        </div>
+        
+        <div class="content-text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quod doloremque nihil neque alias molestiae. Velit delectus dolores fugiat assumenda commodi laudantium deserunt consectetur voluptatem tempore, hic, optio nihil, voluptas id. Vel facere ab suscipit, dolore inventore hic repellendus recusandae magnam totam. Minima natus est, quod hic soluta voluptate voluptatibus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quod doloremque nihil neque alias molestiae. Velit delectus dolores fugiat assumenda commodi laudantium deserunt consectetur voluptatem tempore, hic, optio nihil, voluptas id. Vel facere ab suscipit, dolore inventore hic repellendus recusandae magnam totam. Minima natus est, quod hic soluta voluptate voluptatibus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quod doloremque nihil neque alias molestiae. Velit delectus dolores fugiat assumenda commodi laudantium deserunt consectetur voluptatem tempore, hic, optio nihil, voluptas id. Vel facere ab suscipit, dolore inventore hic repellendus recusandae magnam totam. Minima natus est, quod hic soluta voluptate voluptatibus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quod doloremque nihil neque alias molestiae. Velit delectus dolores fugiat assumenda commodi laudantium deserunt consectetur voluptatem tempore, hic, optio nihil, voluptas id. Vel facere ab suscipit, dolore inventore hic repellendus recusandae magnam totam. Minima natus est, quod hic soluta voluptate voluptatibus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quod doloremque nihil neque alias molestiae. Velit delectus dolores fugiat assumenda commodi laudantium deserunt consectetur voluptatem tempore, hic, optio nihil, voluptas id. Vel facere ab suscipit, dolore inventore hic repellendus recusandae magnam totam. Minima natus est, quod hic soluta voluptate voluptatibus!
+            </p>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <span>Developped by Charuka</span>
+    </footer>
+
 </body>
 </html>
