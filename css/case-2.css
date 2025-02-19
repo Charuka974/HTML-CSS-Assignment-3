@@ -1,15 +1,21 @@
 body{
     margin: 0;
     background-color: rgb(63, 0, 107);
+    /* display: flex; */
+}
+
+.page-body{
     display: flex;
 }
 
 header{
     background-color: white;
-    border: 1px solid black;
-    position: fixed;
+    /* border: 1px solid black; */
+    /*position: fixed;*/ /* if we want the nav bar to stay at the top of the page fixed */
+    /* position: absolute; */
+    position: relative;
     height: 70px;
-    width: 100vw;
+    /* width: 100vw;  335546456*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,15 +55,16 @@ footer{
     background-color: rgb(106, 106, 106);
     text-align: center;
     padding: 10px 0px;
-    position: fixed;
+    /*position: fixed;*/ /* if we want the footer to stay at the bottom of the page fixed */
+    /* bottom: 0; */
+    position: relative;
     bottom: 0;
-    width: 100vw;
+    /* width: 100vw;*/
     height: 24px;
 }
 footer > span{
     color: white;
     font-size: 1rem;
-    
 }
 
 
@@ -73,7 +80,8 @@ footer > span{
 .side-menu > ul{
     justify-content: center;
     padding-left: 2vw;
-    position: fixed;
+    /* position: fixed; */ /* if we want the side menu to be in one place */
+    position: relative;
 }
 .side-menu > ul > li{
     list-style: none;
@@ -88,10 +96,10 @@ footer > span{
 
 .section-1{
     margin: 0;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     background-color: white;
     height: auto;
-    width: 80vw;
+    width: 90vw;
     /* border: 1px solid black; */
     padding-bottom: 40px;
 }
@@ -109,5 +117,11 @@ footer > span{
     padding-top: 10px;
 }
 .content-text{
-    margin-left: 10px;
+    padding-left: 10px;
+}
+
+hr{
+    margin: 0;
+    height: 2px;
+    border: 2px;
 }
