@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+ol{
+    margin-top: 100px;
+    text-align: center;
+}
+
+ol > li{
+    margin: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+ol > li > a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
