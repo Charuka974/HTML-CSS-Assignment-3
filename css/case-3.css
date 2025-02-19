@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.circle-border{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grey-circle-border{
+    border: 4vw solid grey;
+}
+.red-circle-border{
+    border: 2vw solid rgb(185, 12, 12);
+}
+
+.page{
+    height: 100vh;
+}
+
+.circle{
+    background-color: aqua;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circle > p{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% ,-50%);
+    padding: 10px;
+    margin: 0;
+}
+
+.circle1{
+    background-color: purple;
+
+}
+.circle2{
+    background-color: rgb(10, 106, 184);
+
+}
+.circle3{
+    background-color: rgb(253, 59, 59);
+
+}
